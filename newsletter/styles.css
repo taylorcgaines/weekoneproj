@@ -1,0 +1,92 @@
+*{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  position: fixed;
+  width: 100%;
+}
+nav .icon{
+  background-image: url(../images/bent-creek-logo.png);
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  transform: translatey(117%);
+}
+.nav-bar{
+  width: 100%;
+  border-bottom: solid 1px grey;
+  background-color: #FFFFFF;
+  height: 30px;
+  padding-top: 15px;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  background-color: white;
+}
+li {
+  display:inline;
+  margin: 0% 5% 0% 5%
+}
+li a{
+  color: black;
+  text-transform: uppercase;
+}
+body{
+  background-image: url(../images/background-2.jpg);
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+}
+main{
+  background-color: #F2F1E8;
+  margin-top: 10%;
+  width: 70%;
+  height: 400px;
+}
+h1, h2{
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+}
+h1{
+  padding: 5% 5% 2% 5%;
+  font-weight: normal;
+}
+h2{
+  padding: 2% 2% 2% 2%;
+  font-weight: normal;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name, .email{
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin: 2% 0% 2% 0%;
+}
+input{
+  width: 80%;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+.submit_container{
+  background-color: #968772;
+  width: 120px;
+  height: 50px;
+
+}
+#signupButton{
+  color: #F2F1E8;
+  font-size: 25px;
+  width: 120px;
+  height: 50px;
+}

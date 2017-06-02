@@ -6,6 +6,7 @@
 nav{
   position: fixed;
   width: 100%;
+  transform: translatey(-330%);
 }
 nav .icon{
   background-image: url(../images/bent-creek-logo.png);

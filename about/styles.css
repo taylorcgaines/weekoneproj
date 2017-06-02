@@ -28,6 +28,7 @@ Input Border Bottom (Focus): #967343*/
 nav{
   position: fixed;
   width: 100%;
+  transform: translatey(-50%);
 }
 nav .icon{
   background-image: url(../images/bent-creek-logo.png);
@@ -160,6 +161,8 @@ table{
 }
 th, td{
   border: 1px solid black;
+  padding: 1% 2% 1% 2%;
+  height: 35px;
 }
 .t1{
   background-color: #F2F1E8;

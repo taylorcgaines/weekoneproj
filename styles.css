@@ -1,31 +1,12 @@
-/*TO DO:
-Fonts
-Fix placement on navbar
-
-
-
-Background: #F2F1E8
-Text: #131511
-Inline Link: #968772
-Inline Link (Hover): #967343
-Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
-Navigation Text (Hover): #CD5D67
-Navigation Text (Active) #968772
-Button Background: #968772
-Button Background (Hover): #967343
-Button Text: #F2F1E8
-Button Text (Hover): #FFFFFF
-Input Border Bottom: #968772
-Input Border Bottom (Focus): #967343*/
 *{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  font-family: 'Merriweather', sans-serif;
 }
 nav{
   position: fixed;
   width: 100%;
+  transform: translatey(-50%);
+  font-family: 'Roboto', sans-serif;
 }
 nav .icon{
   background-image: url(images/bent-creek-logo.png);
@@ -57,9 +38,19 @@ li a{
 }
 main, header{
   background-color: #F2F1E8;
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+}
+h1{
+  font-size: 4em;
+  font-weight:normal;
 }
 h2{
   margin: 0px 0px 0px 0px;
+  padding-top: 1%;
+  font-size: 2.5em;
+  font-weight: lighter;
 }
 .img-grid{
   display:flex;
